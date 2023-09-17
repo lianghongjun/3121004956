@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f08816-396f-4492-b413-384e2862caad" name="更改" comment="异常类">
+    <list default="true" id="44f08816-396f-4492-b413-384e2862caad" name="更改" comment="SimHashUtils">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhj/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhj/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhj/utils/SimHashUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhj/utils/SimHashUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhj.main.Main" />
+      <module name="paper_checker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhj.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -60,6 +82,7 @@
       <workItem from="1694843479228" duration="2137000" />
       <workItem from="1694846128464" duration="317000" />
       <workItem from="1694846465682" duration="1271000" />
+      <workItem from="1694914547903" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="创建">
       <option name="closed" value="true" />
@@ -85,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694846088882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SimHashUtils">
+      <option name="closed" value="true" />
+      <created>1694914825383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694914825383</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +149,7 @@
     <MESSAGE value="创建" />
     <MESSAGE value="TxtUtils" />
     <MESSAGE value="异常类" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常类" />
+    <MESSAGE value="SimHashUtils" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimHashUtils" />
   </component>
 </project>

@@ -65,7 +65,7 @@ public class SimHashUtils {
             // 2、获取hash值
             StringBuilder wordHash = new StringBuilder(getHash(keyword));
             if (wordHash.length() < 128) {
-                // 若hash值少于128位，在低位以0补齐
+                // 若hash值少于128位，在低位用0补齐
                 int dif = 128 - wordHash.length();
                 for (int j = 0; j < dif; j++) {
                     wordHash.append("0");
@@ -75,7 +75,7 @@ public class SimHashUtils {
             for (int j = 0; j < v.length; j++) {
                 // wordHash每一位与'1'进行比较
                 if (wordHash.charAt(j) == '1') {
-                    // 权重分10级，词频从高到低，取权重10~0
+                    // 词频从高到低，取权重10~0
                     v[j] += (10 - (i / (size / 10)));
                 } else {
                     v[j] -= (10 - (i / (size / 10)));
