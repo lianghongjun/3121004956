@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44f08816-396f-4492-b413-384e2862caad" name="更改" comment="SimHashUtils">
+    <list default="true" id="44f08816-396f-4492-b413-384e2862caad" name="更改" comment="HammingUtils">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhj/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhj/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhj/utils/SimHashUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhj/utils/SimHashUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +47,72 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lhj.main.Main" />
+  <component name="RunManager" selected="JUnit.ContentShortExceptionTest.shortStringExceptionTest">
+    <configuration name="ContentShortExceptionTest.shortStringExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paper_checker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhj.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lhj.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.lhj.exception.ContentShortExceptionTest" />
+      <option name="METHOD_NAME" value="shortStringExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingUtilsTest.getHammingDistanceFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paper_checker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhj.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lhj.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.lhj.utils.HammingUtilsTest" />
+      <option name="METHOD_NAME" value="getHammingDistanceFailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingUtilsTest.getHammingDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paper_checker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhj.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lhj.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.lhj.utils.HammingUtilsTest" />
+      <option name="METHOD_NAME" value="getHammingDistanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingUtilsTest.getSimilarityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="paper_checker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhj.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lhj.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.lhj.utils.HammingUtilsTest" />
+      <option name="METHOD_NAME" value="getSimilarityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="paper_checker" />
       <extension name="coverage">
         <pattern>
@@ -58,13 +120,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.lhj.main" />
+      <option name="MAIN_CLASS_NAME" value="com.lhj.main.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="JUnit.ContentShortExceptionTest.shortStringExceptionTest" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.HammingUtilsTest.getHammingDistanceFailTest" />
+        <item itemvalue="JUnit.HammingUtilsTest.getSimilarityTest" />
+        <item itemvalue="JUnit.HammingUtilsTest.getHammingDistanceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +151,9 @@
       <workItem from="1694843479228" duration="2137000" />
       <workItem from="1694846128464" duration="317000" />
       <workItem from="1694846465682" duration="1271000" />
-      <workItem from="1694914547903" duration="3002000" />
+      <workItem from="1694914547903" duration="3351000" />
+      <workItem from="1694918552728" duration="730000" />
+      <workItem from="1694919293472" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="创建">
       <option name="closed" value="true" />
@@ -116,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694914825383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="计算海明距离，求查重率">
+      <option name="closed" value="true" />
+      <created>1694918455729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694918455729</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HammingUtils">
+      <option name="closed" value="true" />
+      <created>1694918505841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694918505841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +237,8 @@
     <MESSAGE value="TxtUtils" />
     <MESSAGE value="异常类" />
     <MESSAGE value="SimHashUtils" />
-    <option name="LAST_COMMIT_MESSAGE" value="SimHashUtils" />
+    <MESSAGE value="计算海明距离，求查重率" />
+    <MESSAGE value="HammingUtils" />
+    <option name="LAST_COMMIT_MESSAGE" value="HammingUtils" />
   </component>
 </project>
